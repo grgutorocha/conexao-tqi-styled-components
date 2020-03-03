@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+    &__title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        text-align: center;
+        background: #000770;
+        color: #ffffff;
+        margin: 0 0 2px 0;
+        padding: 20px;
+    }
+
+    &__image {
+        width: 100%;
+        display: block;
+    }
+
+    &__button {
+        width: 100%;
+        border: none;
+        padding: 10px;
+        margin-top: 2px;
+        background: #000000;
+        color: #ffffff;
+
+        &--secondary {
+            background: #999999;
+            color: #000000;
+        }
+    }
+}
+
